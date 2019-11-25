@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qml/GameView.qml</file>
+        <file>qml/components/ContourBorder.qml</file>
+        <file>qml/basic/GrayPlaceholder.qml</file>
+        <file>qml/basic/ImageModel.qml</file>
+        <file>qml/images/model.png</file>
+        <file>qml/components/InfoPanel.qml</file>
+        <file>qml/basic/Digit.qml</file>
+        <file>qml/basic/TwoDigitNumber.qml</file>
+        <file>qml/components/StageCover.qml</file>
+        <file>qml/components/GameContent.qml</file>
+        <file>qml/helpers/InstanceOf.qml</file>
+        <file>qml/views/BaseView.qml</file>
+        <file>qml/views/BulletView.qml</file>
+        <file>qml/views/EagleView.qml</file>
+        <file>qml/views/TileView.qml</file>
+        <file>qml/views/PowerUpView.qml</file>
+        <file>qml/views/PlayerTankView.qml</file>
+        <file>qml/views/EnemyTankView.qml</file>
+        <file>qml/views/effects/BaseEffect.qml</file>
+        <file>qml/views/effects/AfterEffectView.qml</file>
+        <file>qml/views/effects/Explosion.qml</file>
+        <file>qml/views/effects/ScorePoints.qml</file>
+        <file>qml/components/PauseLabel.qml</file>
+        <file>qml/components/GameOverLabel.qml</file>
+    </qresource>
+</RCC>
