@@ -1,5 +1,4 @@
-#ifndef DEFINEDCONSTANTS_H
-#define DEFINEDCONSTANTS_H
+#pragma once
 
 #define TILE_MAP_SIZE 4
 #define HALF_TILE_MAP 2
@@ -34,5 +33,3 @@
 
 #define TILE_TYPE_SHIFT 4
 #define TILE_ORIENTATION_MASK 0b1111
-
-#endif // DEFINEDCONSTANTS_H

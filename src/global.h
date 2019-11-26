@@ -1,5 +1,4 @@
-#ifndef GLOBAL_H
-#define GLOBAL_H
+#pragma once
 
 #include <QObject>
 #include <QSharedPointer>
@@ -51,5 +50,3 @@ typedef QSharedPointer<Global> SGlobal;
 #include "coordinators/aicoordinator.h"
 #include "coordinators/powerupcoordinator.h"
 #include "helpers/interactioncontroller.h"
-
-#endif // GLOBAL_H

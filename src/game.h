@@ -1,5 +1,4 @@
-#ifndef GAME_H
-#define GAME_H
+#pragma once
 
 #include <QObject>
 #include "global.h"
@@ -70,5 +69,3 @@ private:
 
     void setOver(bool over);
 };
-
-#endif // GAME_H

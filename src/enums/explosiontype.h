@@ -1,5 +1,4 @@
-#ifndef EXPLOSIONTYPE_H
-#define EXPLOSIONTYPE_H
+#pragma once
 
 #include <QObject>
 
@@ -23,5 +22,3 @@ public:
         return MIN <= value && value <= MAX;
     }
 };
-
-#endif // EXPLOSIONTYPE_H

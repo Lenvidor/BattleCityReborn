@@ -1,5 +1,4 @@
-#ifndef SCOREDPOINTS_H
-#define SCOREDPOINTS_H
+#pragma once
 
 #include <QObject>
 
@@ -25,5 +24,3 @@ public:
         return MIN <= value && value <= MAX;
     }
 };
-
-#endif // SCOREDPOINTS_H

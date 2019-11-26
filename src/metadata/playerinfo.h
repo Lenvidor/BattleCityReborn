@@ -1,5 +1,4 @@
-#ifndef PLAYERINFO_H
-#define PLAYERINFO_H
+#pragma once
 
 #include <QSharedPointer>
 #include <QObject>
@@ -28,5 +27,3 @@ private:
 
 Q_DECLARE_METATYPE(PlayerInfo *)
 typedef QSharedPointer<PlayerInfo> SPlayerInfo;
-
-#endif // PLAYERINFO_H

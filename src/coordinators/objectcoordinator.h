@@ -1,5 +1,4 @@
-#ifndef OBJECTCOORDINATOR_H
-#define OBJECTCOORDINATOR_H
+#pragma once
 
 #include <QObject>
 #include <QtQml>
@@ -54,5 +53,3 @@ private:
 };
 
 typedef QSharedPointer<ObjectCoordinator> SObjectCoordinator;
-
-#endif // OBJECTCOORDINATOR_H

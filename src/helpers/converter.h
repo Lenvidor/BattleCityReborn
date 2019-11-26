@@ -1,5 +1,4 @@
-#ifndef CONVERTER_H
-#define CONVERTER_H
+#pragma once
 
 #include "../enums/direction.h"
 #include <QtMath>
@@ -13,5 +12,3 @@ public:
     static QPointF toVectorF(const Direction::Enum &value);
     static QPoint toPoint(const QPointF &value);
 };
-
-#endif // CONVERTER_H

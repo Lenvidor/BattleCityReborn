@@ -1,5 +1,4 @@
-#ifndef AICOORDINATOR_H
-#define AICOORDINATOR_H
+#pragma once
 
 #include <QObject>
 #include "../models/tanks/enemytank.h"
@@ -31,5 +30,3 @@ private:
 };
 
 typedef QSharedPointer<AICoordinator> SAICoordinator;
-
-#endif // AICOORDINATOR_H

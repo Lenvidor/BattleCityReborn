@@ -1,5 +1,4 @@
-#ifndef TEMPLATEDEFINITIONS_H
-#define TEMPLATEDEFINITIONS_H
+#pragma once
 
 #include "modelscontainer.h"
 
@@ -166,5 +165,3 @@ void ContainerIterator<T>::onObjectRemoved(int removedIndex)
         tuneForwardIndex();
     }
 }
-
-#endif // TEMPLATEDEFINITIONS_H

@@ -1,5 +1,4 @@
-#ifndef INTERACTIVEOBJECT_H
-#define INTERACTIVEOBJECT_H
+#pragma once
 
 #include "object.h"
 #include "../enums/explosiontype.h"
@@ -38,5 +37,3 @@ private:
 
 Q_DECLARE_METATYPE(InteractiveObject *)
 typedef QSharedPointer<InteractiveObject> SInteractiveObject;
-
-#endif // INTERACTIVEOBJECT_H

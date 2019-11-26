@@ -1,5 +1,4 @@
-#ifndef TANK_H
-#define TANK_H
+#pragma once
 
 #include "../movingobject.h"
 #include <QEnableSharedFromThis>
@@ -42,5 +41,3 @@ private:
 
 Q_DECLARE_METATYPE(Tank *)
 typedef QSharedPointer<Tank> STank;
-
-#endif // TANK_H

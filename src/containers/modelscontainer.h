@@ -1,5 +1,4 @@
-#ifndef MODELSCONTAINER_H
-#define MODELSCONTAINER_H
+#pragma once
 
 #include <QObject>
 #include <QLinkedList>
@@ -36,4 +35,3 @@ typedef QSharedPointer<ModelsContainer> SModelsContainer;
 
 #include "containeriterator.h"
 
-#endif // MODELSCONTAINER_H

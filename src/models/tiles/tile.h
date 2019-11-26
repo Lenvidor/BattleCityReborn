@@ -1,5 +1,4 @@
-#ifndef TILE_H
-#define TILE_H
+#pragma once
 
 #include <QGenericMatrix>
 #include <QtMath>
@@ -51,5 +50,3 @@ private:
 
 Q_DECLARE_METATYPE(Tile *)
 typedef QSharedPointer<Tile> STile;
-
-#endif // TILE_H

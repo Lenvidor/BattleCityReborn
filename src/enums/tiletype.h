@@ -1,5 +1,4 @@
-#ifndef TILETYPE_H
-#define TILETYPE_H
+#pragma once
 
 #include <QObject>
 
@@ -22,5 +21,3 @@ public:
         return MIN <= value && value <= MAX;
     }
 };
-
-#endif // TILETYPE_H

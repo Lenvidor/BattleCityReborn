@@ -1,5 +1,4 @@
-#ifndef RESUMABLETIMER_H
-#define RESUMABLETIMER_H
+#pragma once
 
 #include <QObject>
 #include <QSharedPointer>
@@ -36,5 +35,3 @@ private:
 };
 
 typedef QSharedPointer<ResumableTimer> SResumableTimer;
-
-#endif // RESUMABLETIMER_H

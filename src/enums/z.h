@@ -1,5 +1,4 @@
-#ifndef Z_H
-#define Z_H
+#pragma once
 
 #include <QObject>
 
@@ -27,5 +26,3 @@ public:
         return MIN <= value && value <= MAX;
     }
 };
-
-#endif // Z_H

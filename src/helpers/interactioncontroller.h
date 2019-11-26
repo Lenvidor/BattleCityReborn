@@ -1,5 +1,4 @@
-#ifndef INTERACTIONCONTROLLER_H
-#define INTERACTIONCONTROLLER_H
+#pragma once
 
 #include <QObject>
 #include <QSharedPointer>
@@ -43,5 +42,3 @@ private:
 };
 
 typedef QSharedPointer<InteractionController> SInteractionController;
-
-#endif // INTERACTIONCONTROLLER_H

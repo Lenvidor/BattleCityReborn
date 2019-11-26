@@ -1,5 +1,4 @@
-#ifndef TANKTYPE_H
-#define TANKTYPE_H
+#pragma once
 
 #include <QObject>
 
@@ -23,5 +22,3 @@ public:
         return MIN <= value && value <= MAX;
     }
 };
-
-#endif // TANKTYPE_H

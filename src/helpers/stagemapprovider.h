@@ -1,5 +1,4 @@
-#ifndef STAGEMAPPROVIDER_H
-#define STAGEMAPPROVIDER_H
+#pragma once
 
 #include <QSharedPointer>
 #include <QGenericMatrix>
@@ -20,5 +19,3 @@ private:
 };
 
 typedef QSharedPointer<StageMapProvider> SStageMapProvider;
-
-#endif // STAGEMAPPROVIDER_H

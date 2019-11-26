@@ -1,5 +1,4 @@
-#ifndef POWERUP_H
-#define POWERUP_H
+#pragma once
 
 #include "../interactiveobject.h"
 #include "../../enums/poweruptype.h"
@@ -22,5 +21,3 @@ private:
 
 Q_DECLARE_METATYPE(PowerUp *)
 typedef QSharedPointer<PowerUp> SPowerUp;
-
-#endif // POWERUP_H

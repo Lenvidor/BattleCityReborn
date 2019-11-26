@@ -1,5 +1,4 @@
-#ifndef STAGEINFO_H
-#define STAGEINFO_H
+#pragma once
 
 #include <QObject>
 #include <QSharedPointer>
@@ -28,5 +27,3 @@ private:
 
 Q_DECLARE_METATYPE(StageInfo *)
 typedef QSharedPointer<StageInfo> SStageInfo;
-
-#endif // STAGEINFO_H

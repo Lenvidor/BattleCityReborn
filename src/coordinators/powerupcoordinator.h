@@ -1,5 +1,4 @@
-#ifndef POWERUPCOORDINATOR_H
-#define POWERUPCOORDINATOR_H
+#pragma once
 
 #include <QObject>
 #include "icoordinator.h"
@@ -38,5 +37,3 @@ private:
 };
 
 typedef QSharedPointer<PowerUpCoordinator> SPowerUpCoordinator;
-
-#endif // POWERUPCOORDINATOR_H

@@ -1,5 +1,4 @@
-#ifndef MODELSPROPERTIES_H
-#define MODELSPROPERTIES_H
+#pragma once
 
 class ModelsProperties
 {
@@ -26,5 +25,3 @@ public:
     static const int EAGLE_POSITION_COLUMN = 6;
     static const int EAGLE_POSITION_ROW = 12;
 };
-
-#endif // MODELSPROPERTIES_H

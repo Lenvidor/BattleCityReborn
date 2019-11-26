@@ -1,5 +1,4 @@
-#ifndef BULLET_H
-#define BULLET_H
+#pragma once
 
 #include "../movingobject.h"
 #include "../tanks/tank.h"
@@ -22,5 +21,3 @@ private:
 
 Q_DECLARE_METATYPE(Bullet *)
 typedef QSharedPointer<Bullet> SBullet;
-
-#endif // BULLET_H

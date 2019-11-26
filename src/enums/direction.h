@@ -1,5 +1,4 @@
-#ifndef DIRECTION_H
-#define DIRECTION_H
+#pragma once
 
 #include <QObject>
 
@@ -23,5 +22,3 @@ public:
         return MIN <= value && value <= MAX;
     }
 };
-
-#endif // DIRECTION_H

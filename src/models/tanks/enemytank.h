@@ -1,5 +1,4 @@
-#ifndef ENEMYTANK_H
-#define ENEMYTANK_H
+#pragma once
 
 #include "tank.h"
 #include "../../enums/tanktype.h"
@@ -28,5 +27,3 @@ private:
 
 Q_DECLARE_METATYPE(EnemyTank *)
 typedef QSharedPointer<EnemyTank> SEnemyTank;
-
-#endif // ENEMYTANK_H

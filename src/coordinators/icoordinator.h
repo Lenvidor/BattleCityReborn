@@ -1,5 +1,4 @@
-#ifndef ICOORDINATOR_H
-#define ICOORDINATOR_H
+#pragma once
 
 #include <QSharedPointer>
 
@@ -11,5 +10,3 @@ public:
 
     virtual ~ICoordinator() {}
 };
-
-#endif // ICOORDINATOR_H

@@ -1,5 +1,4 @@
-#ifndef REGISTRAR_H
-#define REGISTRAR_H
+#pragma once
 
 #include <QtQml>
 
@@ -27,5 +26,3 @@ class Registrar
 public:
     static void registerQMLTypes();
 };
-
-#endif // REGISTRAR_H

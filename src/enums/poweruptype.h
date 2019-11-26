@@ -1,5 +1,4 @@
-#ifndef POWERUPTYPE_H
-#define POWERUPTYPE_H
+#pragma once
 
 #include <QObject>
 
@@ -25,5 +24,3 @@ public:
         return MIN <= value && value <= MAX;
     }
 };
-
-#endif // POWERUPTYPE_H

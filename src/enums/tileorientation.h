@@ -1,5 +1,4 @@
-#ifndef TILEORIENTATION_H
-#define TILEORIENTATION_H
+#pragma once
 
 #include <QObject>
 
@@ -42,5 +41,3 @@ public:
         return false;
     }
 };
-
-#endif // TILEORIENTATION_H

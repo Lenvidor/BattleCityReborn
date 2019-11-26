@@ -1,5 +1,4 @@
-#ifndef EAGLE_H
-#define EAGLE_H
+#pragma once
 
 #include "../interactiveobject.h"
 
@@ -21,5 +20,3 @@ private:
 
 Q_DECLARE_METATYPE(Eagle *)
 typedef QSharedPointer<Eagle> SEagle;
-
-#endif // EAGLE_H

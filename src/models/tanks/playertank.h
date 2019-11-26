@@ -1,5 +1,4 @@
-#ifndef PLAYERTANK_H
-#define PLAYERTANK_H
+#pragma once
 
 #include "tank.h"
 
@@ -36,5 +35,3 @@ private:
 
 Q_DECLARE_METATYPE(PlayerTank *)
 typedef QSharedPointer<PlayerTank> SPlayerTank;
-
-#endif // PLAYERTANK_H

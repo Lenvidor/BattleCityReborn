@@ -1,5 +1,4 @@
-#ifndef CALLBACKCONTAINER_H
-#define CALLBACKCONTAINER_H
+#pragma once
 
 template <class T>
 using Callback = void (T::*)(int);
@@ -14,5 +13,3 @@ private:
     T *object;
     Callback<T> callback;
 };
-
-#endif // CALLBACKCONTAINER_H

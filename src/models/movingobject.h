@@ -1,5 +1,4 @@
-#ifndef MOVINGOBJECT_H
-#define MOVINGOBJECT_H
+#pragma once
 
 #include <QPointF>
 #include <QtMath>
@@ -53,5 +52,3 @@ private:
 
 Q_DECLARE_METATYPE(MovingObject *)
 typedef QSharedPointer<MovingObject> SMovingObject;
-
-#endif // MOVINGOBJECT_H

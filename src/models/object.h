@@ -1,5 +1,4 @@
-#ifndef OBJECT_H
-#define OBJECT_H
+#pragma once
 
 #include <QObject>
 #include <QPoint>
@@ -49,5 +48,3 @@ private:
 
 Q_DECLARE_METATYPE(Object *)
 typedef QSharedPointer<Object> SObject;
-
-#endif // OBJECT_H

@@ -1,5 +1,4 @@
-#ifndef MOVEMENTCOORDINATOR_H
-#define MOVEMENTCOORDINATOR_H
+#pragma once
 
 #include <QObject>
 #include "icoordinator.h"
@@ -45,5 +44,3 @@ private: //helping
 };
 
 typedef QSharedPointer<MovementCoordinator> SMovementCoordintator;
-
-#endif // MOVEMENTCOORDINATOR_H

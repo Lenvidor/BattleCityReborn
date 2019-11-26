@@ -1,5 +1,4 @@
-#ifndef OBJECTCREATOR_H
-#define OBJECTCREATOR_H
+#pragma once
 
 #include <QSharedPointer>
 #include "../models/bullets/bullet.h"
@@ -22,5 +21,3 @@ public:
 };
 
 typedef QSharedPointer<ObjectCreator> SObjectCreator;
-
-#endif // OBJECTCREATOR_H

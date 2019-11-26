@@ -1,5 +1,4 @@
-#ifndef CONTAINERITERATOR_H
-#define CONTAINERITERATOR_H
+#pragma once
 
 #include "modelscontainer.h"
 #include "callbackcontainer.h"
@@ -86,5 +85,3 @@ private:
 };
 
 #include "templatedefinitions.h"
-
-#endif // CONTAINERITERATOR_H
